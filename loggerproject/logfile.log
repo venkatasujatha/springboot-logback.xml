@@ -1,0 +1,68 @@
+1288 [main] INFO  c.e.demo.LoggerprojectApplication - Starting LoggerprojectApplication using Java 17.0.2 on localhost with PID 14197 (/home/tectoro/git/repository22/loggerproject/target/classes started by tectoro in /home/tectoro/git/repository22/loggerproject)
+1291 [main] INFO  c.e.demo.LoggerprojectApplication - No active profile set, falling back to 1 default profile: "default"
+3088 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+3100 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+3101 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+3101 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+3236 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+3236 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1889 ms
+3797 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+3906 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+3909 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+3909 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+3997 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+3997 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+4002 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+4039 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+487  [main] INFO  c.e.demo.LoggerprojectApplication - Starting LoggerprojectApplication using Java 17.0.2 on localhost with PID 14262 (/home/tectoro/git/repository22/loggerproject/target/classes started by tectoro in /home/tectoro/git/repository22/loggerproject)
+489  [main] INFO  c.e.demo.LoggerprojectApplication - No active profile set, falling back to 1 default profile: "default"
+1005 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+1011 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+1012 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1013 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+1063 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1063 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 541 ms
+1499 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+1603 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+1709 [main] INFO  c.e.demo.LoggerprojectApplication - Started LoggerprojectApplication in 1.436 seconds (JVM running for 2.46)
+25372 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25385 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+25388 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+25817 [http-nio-8080-exec-1] INFO  com.example.demo.Logger1 - info msg
+25817 [http-nio-8080-exec-1] ERROR com.example.demo.Logger1 - error msg
+25818 [http-nio-8080-exec-1] WARN  com.example.demo.Logger1 - warn msg
+25818 [http-nio-8080-exec-1] ERROR com.example.demo.Logger1 - fatal msg
+83446 [RMI TCP Connection(5)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+3805 [main] INFO  c.e.demo.LoggerprojectApplication - Starting LoggerprojectApplication using Java 17.0.2 on localhost with PID 14503 (/home/tectoro/git/repository22/loggerproject/target/classes started by tectoro in /home/tectoro/git/repository22/loggerproject)
+3816 [main] INFO  c.e.demo.LoggerprojectApplication - No active profile set, falling back to 1 default profile: "default"
+32886 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+33079 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+33080 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+33080 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.64]
+35108 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+35108 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 30614 ms
+36058 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+36095 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+36110 [main] INFO  c.e.demo.LoggerprojectApplication - Started LoggerprojectApplication in 33.799 seconds (JVM running for 41.837)
+48826 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+48846 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+48847 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+49076 [http-nio-8080-exec-1] INFO  com.example.demo.Logger1 - info msg
+49076 [http-nio-8080-exec-1] ERROR com.example.demo.Logger1 - error msg
+49076 [http-nio-8080-exec-1] WARN  com.example.demo.Logger1 - warn msg
+49076 [http-nio-8080-exec-1] ERROR com.example.demo.Logger1 - fatal msg
